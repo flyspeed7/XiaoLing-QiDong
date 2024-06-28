@@ -40,8 +40,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/flyspeed7/XiaoLing-Uw
 end)
 
  local win = lib:Window("内设脚本",Color3.fromRGB(44, 120, 224), Enum.KeyCode.RightControl) 
-  
- local setup = win:Tab(" ")
 
  setup:Label("脚本为启动器功能不是太多")
  setup:Label("By：小凌.AEX")
