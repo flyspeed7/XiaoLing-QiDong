@@ -28,9 +28,9 @@ end)
 
 uihide = false
 
-local win = lib:Window("冬凌中心[主脚本]",Color3.fromRGB(44, 120, 224), Enum.KeyCode.RightControl) 
-  
- local setup = win:Tab(" ")
+ local win = lib:Window("冬凌中心",Color3.fromRGB(44, 120, 224), Enum.KeyCode.RightControl) 
+
+local setup = win:Tab(" ")
 
  setup:Label("不要卡密(免费)")
  setup:Label("By：小凌.AEX、囚")
@@ -39,10 +39,8 @@ setup:Button("点我打开冬凌中心!",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/flyspeed7/XiaoLing-UwU/main/%E5%86%AC%E5%87%8C%E4%B8%AD%E5%BF%83(%E5%B7%B2%E6%81%A2%E5%A4%8D).XiaoLing.Lua"))()
 end)
 
- local win = lib:Window("内设脚本",Color3.fromRGB(44, 120, 224), Enum.KeyCode.RightControl) 
-
  setup:Label("脚本为启动器功能不是太多")
- setup:Label("By：小凌.AEX")
+ setup:Label("以下脚本为内设脚本")
  
 setup:Button("打死声音",function()
 for i, v in pairs(game.Workspace["_WorldOrigin"]:GetChildren()) do
@@ -51,7 +49,7 @@ v:Destroy()
 end
 end
 end)
-setup:Colorpicker("更改用户界面颜色",Color3.fromRGB(44, 120, 224), function(t) 
+setup:Colorpicker("更改用户界面颜色(可用)",Color3.fromRGB(44, 120, 224), function(t) 
  lib:ChangePresetColor(Color3.fromRGB(t.R * 255, t.G * 255, t.B * 255)) 
  end)
  
@@ -65,60 +63,9 @@ tab:Toggle("去除雾气", false, function(state)
     end
 end)
  
-tab2:Button("死亡",function() 
+tab2:Button("立刻死亡",function() 
      game.Players.LocalPlayer.Character.Humanoid.Health = 0 
  end) 
-
-local server = win:Tab("加入服务器/游戏")
-
-server:Button("加入极速传奇",function()
-local game_id = 3101667897
-        local game_url = "https://www.roblox.com/games/"..game_id
-        game:GetService("TeleportService"):Teleport(game_id, game.Players.LocalPlayer)
-end)
-
-server:Button("加入鲨口生求2",function()
-local game_id = 8908228901
-        local game_url = "https://www.roblox.com/games/"..game_id
-        game:GetService("TeleportService"):Teleport(game_id, game.Players.LocalPlayer)
-end)
-
-server:Button("加入监狱人生",function()
-local game_id = 155615604
-        local game_url = "https://www.roblox.com/games/"..game_id
-        game:GetService("TeleportService"):Teleport(game_id, game.Players.LocalPlayer)
-end)
-
-server:Button("加入忍者传奇",function()
-local game_id = 3956818381
-        local game_url = "https://www.roblox.com/games/"..game_id
-        game:GetService("TeleportService"):Teleport(game_id, game.Players.LocalPlayer)
-end)
-
-server:Button("加入Break in (故事)",function()
-local game_id = 1318971886
-        local game_url = "https://www.roblox.com/games/"..game_id
-        game:GetService("TeleportService"):Teleport(game_id, game.Players.LocalPlayer)
-end)
-
-server:Button("加入自然灾害生存游戏",function()
-local game_id = 189707
-        local game_url = "https://www.roblox.com/games/"..game_id
-        game:GetService("TeleportService"):Teleport(game_id, game.Players.LocalPlayer)
-end)
-
-server:Button("加入力量传奇",function()
-local game_id = 3623096087
-        local game_url = "https://www.roblox.com/games/"..game_id
-        game:GetService("TeleportService"):Teleport(game_id, game.Players.LocalPlayer)
-end)
-
-server:Button("加入餐厅大亨2",function()
-local game_id = 3398014311
-        local game_url = "https://www.roblox.com/games/"..game_id
-        game:GetService("TeleportService"):Teleport(game_id, game.Players.LocalPlayer)
-end)
-
 
 --[[
 server:Button("", function() 
