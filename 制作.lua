@@ -67,7 +67,7 @@ tab2:Button("立刻死亡",function()
      game.Players.LocalPlayer.Character.Humanoid.Health = 0 
  end) 
 
-local setup = win:Tab("可加入的游戏")
+setup:Label("下面是可加入的游戏")
 
 server:Button("加入极速传奇",function()
 local game_id = 3101667897
