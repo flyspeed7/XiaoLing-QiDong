@@ -28,9 +28,9 @@ end)
 
 uihide = false
 
- local win = lib:Window("冬凌中心",Color3.fromRGB(44, 120, 224), Enum.KeyCode.RightControl) 
+ local win = lib:Window("冬凌中心启动器",Color3.fromRGB(44, 120, 224), Enum.KeyCode.RightControl) 
 
-local setup = win:Tab(" ")
+local setup = win:Tab("内设脚本 ")
 
  setup:Label("不要卡密(免费)")
  setup:Label("By：小凌.AEX、囚")
