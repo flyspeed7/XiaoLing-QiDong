@@ -67,6 +67,57 @@ tab2:Button("立刻死亡",function()
      game.Players.LocalPlayer.Character.Humanoid.Health = 0 
  end) 
 
+local setup = win:Tab("可加入的游戏")
+
+server:Button("加入极速传奇",function()
+local game_id = 3101667897
+        local game_url = "https://www.roblox.com/games/"..game_id
+        game:GetService("TeleportService"):Teleport(game_id, game.Players.LocalPlayer)
+end)
+
+server:Button("加入鲨口生求2",function()
+local game_id = 8908228901
+        local game_url = "https://www.roblox.com/games/"..game_id
+        game:GetService("TeleportService"):Teleport(game_id, game.Players.LocalPlayer)
+end)
+
+server:Button("加入监狱人生",function()
+local game_id = 155615604
+        local game_url = "https://www.roblox.com/games/"..game_id
+        game:GetService("TeleportService"):Teleport(game_id, game.Players.LocalPlayer)
+end)
+
+server:Button("加入忍者传奇",function()
+local game_id = 3956818381
+        local game_url = "https://www.roblox.com/games/"..game_id
+        game:GetService("TeleportService"):Teleport(game_id, game.Players.LocalPlayer)
+end)
+
+server:Button("加入Break in (故事)",function()
+local game_id = 1318971886
+        local game_url = "https://www.roblox.com/games/"..game_id
+        game:GetService("TeleportService"):Teleport(game_id, game.Players.LocalPlayer)
+end)
+
+server:Button("加入自然灾害生存游戏",function()
+local game_id = 189707
+        local game_url = "https://www.roblox.com/games/"..game_id
+        game:GetService("TeleportService"):Teleport(game_id, game.Players.LocalPlayer)
+end)
+
+server:Button("加入力量传奇",function()
+local game_id = 3623096087
+        local game_url = "https://www.roblox.com/games/"..game_id
+        game:GetService("TeleportService"):Teleport(game_id, game.Players.LocalPlayer)
+end)
+
+server:Button("加入餐厅大亨2",function()
+local game_id = 3398014311
+        local game_url = "https://www.roblox.com/games/"..game_id
+        game:GetService("TeleportService"):Teleport(game_id, game.Players.LocalPlayer)
+end)
+
+
 --[[
 server:Button("", function() 
 
