@@ -35,7 +35,7 @@ local setup = win:Tab("内设脚本 ")
  setup:Label("不要卡密(免费)")
  setup:Label("By：小凌.AEX、囚")
  
-setup:Button("点我打开冬凌中心!",function()
+setup:Button("😡点我打开冬凌中心!😡",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/flyspeed7/XiaoLing-UwU/main/%E5%86%AC%E5%87%8C%E4%B8%AD%E5%BF%83(%E5%B7%B2%E6%81%A2%E5%A4%8D).XiaoLing.Lua"))()
 end)
 
