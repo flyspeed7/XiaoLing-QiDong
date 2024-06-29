@@ -53,7 +53,6 @@ setup:Colorpicker("更改用户界面颜色(可用)",Color3.fromRGB(44, 120, 224
  lib:ChangePresetColor(Color3.fromRGB(t.R * 255, t.G * 255, t.B * 255)) 
  end)
  
- 
 tab:Toggle("去除雾气", false, function(state)
     if state then
         game.Lighting.FogStart = 3276634343
