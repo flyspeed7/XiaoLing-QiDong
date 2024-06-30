@@ -1,4 +1,4 @@
-local Cloudlib = loadstring(game:HttpGet("https://gist.githubusercontent.com/XiaoYunCN/c212174d6263d5a43e95a59110a2724b/raw/c89c61fa5c8149a2554b66f618a32cd3e4d42877/gistfile1.txt", true))()
+local Cloudlib = loadstring(game:HttpGet("https://github.com/XiaoYunCN/UWU/blob/main/Library%2FSilent%20ui"))()
 
 local window = Cloudlib:new("冬凌中心启动器-Github")
 
